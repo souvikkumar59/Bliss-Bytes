@@ -93,7 +93,7 @@ const App = () => {
       </h1>
       <p className="text-center text-gray-600 mb-2">Table Number: {tablenumber || 'Not set'}</p>
       <Menu menuItems={menuItems} addToCart={addToCart} />
-      <Cart cart={cart} removeFromCart={removeFromCart} placeOrder={placeOrder} />
+      <Cart cart={cart} removeFromCart={removeFromCart} placeOrder={placeOrder}/>
     </div>
   );
 };

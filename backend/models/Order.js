@@ -8,7 +8,7 @@ const orderSchema = new mongoose.Schema({
     quantity: { type: Number, default: 1 },
   }],
   status: { type: String, default: 'pending' },
-});
+}, { timestamps: true }); // Adds createdAt and updatedAt
 
 const Order = mongoose.model('Order', orderSchema);
 export default Order;
