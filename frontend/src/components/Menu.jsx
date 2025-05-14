@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from './Navbar';
 
 // Sample image URLs (replace with actual image URLs or import them if local)
 const items = [
@@ -43,6 +44,7 @@ const items = [
 const Menu = ({ addToCart }) => {
   return (
     <div className="container mx-auto p-6">
+      <Navbar />
       <h2 className="text-3xl font-semibold text-gray-800 text-center mb-8">Menu</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {items.map((item) => (

@@ -14,6 +14,8 @@ import {
   Outlet
 } from 'react-router-dom'
 import Footer from './components/Footer.jsx'
+import Contact from './components/Contact.jsx'
+import Branches from './components/Branches.jsx'
 
 
 
@@ -24,12 +26,20 @@ const router = createBrowserRouter([
   },
 
   {
+    path: "/contact",
+    element: <Contact />
+  },
+  {
+    path: "/branches",
+    element:<Branches />
+  },
+  {
     path: "/",
-    element: 
+    element:
     <>
     <App />
     <Footer />
-    </>
+    ,</>
   }
 ]);
 

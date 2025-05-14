@@ -88,7 +88,7 @@ const App = () => {
         </div>
       )}
 
-      <h1 className="text-5xl font-extrabold text-center text-violet-700 drop-shadow-md tracking-wide mb-6">
+      <h1 className="text-2xl font-extrabold text-center text-violet-700 drop-shadow-md tracking-wide mb-6">
         🍽️ Bliss-<span className="text-pink-500">Bites</span>
       </h1>
       <p className="text-center text-gray-600 mb-2">Table Number: {tablenumber || 'Not set'}</p>
